@@ -60,8 +60,6 @@ class UserController {
 
             let values = this.getValues(this.formUpdateEl);
 
-            console.log(values);
-
             let index = this.formUpdateEl.dataset.trIndex;
 
             let tr = this.tableEl.rows[index];
